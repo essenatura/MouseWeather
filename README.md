@@ -28,3 +28,6 @@ WorkManager for background updates
 
 📜 License
 Licensed under the Apache License 2.0. See LICENSE for details.
+
+<p align="center"> <img src="images/Main-screen.png" width="220" alt="Main Screen"> <img src="images/Future-weather.png" width="220" alt="Future Weather"> <img src="images/Widget.png" width="220" alt="Widget"> </p>
+<p align="center"> <img src="images/Languages-choose.png" width="220" alt="Languages"> <img src="images/Help.png" width="220" alt="Help Dialog"> </p>
