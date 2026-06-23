@@ -131,6 +131,17 @@ class WeatherWorker(
 
         if ((hourlyTime != null) && (hourlyClouds != null) && (hourlyUv != null) && (hourlyCodes != null)) {
             val hourlyPrecip = json.optJSONArray("hourly_precip")
+            val sunrise = json.optString("sunrise", "")
+            val sunset = json.optString("sunset", "")
+
+            fun isDayAt(timeStr: String): Boolean {
+                if (sunrise.isBlank() || sunset.isBlank()) return true
+                val h = timeStr.take(2).toIntOrNull() ?: 12
+                val riseH = sunrise.substringAfter("T").take(2).toIntOrNull() ?: 6
+                val setH = sunset.substringAfter("T").take(2).toIntOrNull() ?: 20
+                return h in (riseH + 1) until setH
+            }
+
             // Skanujemy najbliższe 5 godzin, aby nie przegapić gwałtownych zjawisk
             for (offset in 0..5) {
                 val targetIdx = (currentHour + offset) % hourlyCodes.length()
@@ -139,6 +150,8 @@ class WeatherWorker(
                 val clouds = hourlyClouds.optInt(targetIdx, 100)
                 val precip = hourlyPrecip?.optDouble(targetIdx, 0.0) ?: 0.0
                 val targetTimeStr = hourlyTime.optString(targetIdx, "").substringAfter("T").take(5)
+
+                val isDaytime = isDayAt(targetTimeStr)
 
                 // 1. Burza (Priorytet najwyższy)
                 if (code >= 95) {
@@ -152,8 +165,8 @@ class WeatherWorker(
                     return // Wysyłamy tylko jeden, najważniejszy alert
                 }
 
-                // 2. Deszcz (Czułość: > 0.01mm)
-                if (code in 51..67 || code in 80..82 || precip > 0.01) {
+                // 2. Deszcz (Czułość: > 0.2mm)
+                if ((code in 51..67 || code in 80..82 || precip > 0.2)) {
                     if (powinienemWyslacAlert("rain", targetTimeStr)) {
                         sendNotification(
                             104,
@@ -164,8 +177,8 @@ class WeatherWorker(
                     return
                 }
 
-                // 3. Bardzo wysokie UV
-                if (uv > 7.0) {
+                // 3. Bardzo wysokie UV (Tylko w dzień)
+                if (isDaytime && uv > 7.0) {
                     if (powinienemWyslacAlert("uv", targetTimeStr)) {
                         sendNotification(
                             101,
@@ -176,8 +189,8 @@ class WeatherWorker(
                     return
                 }
 
-                // 4. Pełne słońce (Bardziej rygorystyczne: clouds < 10% i kod 0)
-                if (offset > 0 && clouds < 10 && code == 0) {
+                // 4. Pełne słońce (Tylko w dzień i bardziej rygorystyczne: clouds < 10% i kod 0)
+                if (isDaytime && offset > 0 && clouds < 10 && code == 0) {
                     if (powinienemWyslacAlert("sun", targetTimeStr)) {
                         sendNotification(
                             102,
