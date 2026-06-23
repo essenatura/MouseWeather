@@ -2,6 +2,10 @@
 
 MouseWeather is a privacy-focused Android weather app that combines multiple data sources to provide a temperature consensus, all presented in a charming mouse-themed interface.
 
+MouseWeather supports 9 languages, making it accessible to users worldwide:
+
+🇵🇱 Polish, 🇬🇧 English, 🇪🇸 Spanish, 🇷🇺 Russian, 🇮🇳 Hindi, 🇨🇳 Chinese, 🇫🇷 French, 🇸🇦 Arabic, 🇮🇩 Indonesian.
+
 ✨ Features
 
 
