@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">MouseWeather</string>
+    <string name="wagi_label">الأوزان -> OM: %1$d%% | Yr: %2$d%% | ICON: %3$d%%</string>
+    <string name="feels_like">درجة الحرارة المحسوسة: %1$s°م</string>
+    <string name="uv_label">☀️ الأشعة فوق البنفسجية: %1$s</string>
+    <string name="humidity_label">💧 %1$d%%</string>
+    <string name="pressure_label">⏲️ %1$dهكتوباسكال</string>
+    <string name="aqi_eu">🇪🇺 AQI: %1$d</string>
+    <string name="aqi_us">🇺🇸 AQI: %1$d</string>
+    <string name="pm25_label">🌫️ PM2.5: %1$s</string>
+    <string name="pm10_label">☁️ PM10: %1$s</string>
+    <string name="wind_label">💨 %1$s كم/س (%2$s)</string>
+    <string name="wind_n">شمال</string>
+    <string name="wind_ne">شمال شرق</string>
+    <string name="wind_e">شرق</string>
+    <string name="wind_se">جنوب شرق</string>
+    <string name="wind_s">جنوب</string>
+    <string name="wind_sw">جنوب غرب</string>
+    <string name="wind_w">غرب</string>
+    <string name="wind_nw">شمال غرب</string>
+    <string name="wind_dir_none">لا يوجد</string>
+    <string name="pollen_high">لقاح مرتفع!</string>
+    <string name="pollen_low">لقاح منخفض</string>
+    <string name="pollen_active">اللقاح: %1$s</string>
+    <string name="no_rain">🌲 بدون مطر: %1$s</string>
+    <string name="sun_window">☀️ نافذة شمسية: %1$s</string>
+    <string name="sun_clouds_window">☀️ شمس مع غيوم: %1$s</string>
+    <string name="no_windows">لا توجد نوافذ</string>
+    <string name="check_weather_btn">تحقق من الطقس</string>
+    <string name="city_label">🏙️ أدخل اسم المدينة</string>
+    <string name="default_city">منطقتك</string>
+    <string name="moon_phase">طور القمر: %1$s %2$s</string>
+    <string name="sunrise_icon">🌅 %1$s</string>
+    <string name="sunset_icon">🌇 %1$s</string>
+
+    <!-- Moon Phases -->
+    <string name="moon_new">محاق</string>
+    <string name="moon_waxing_crescent">هلال متزايد</string>
+    <string name="moon_first_quarter">تربيع أول</string>
+    <string name="moon_waxing_gibbous">أحدب متزايد</string>
+    <string name="moon_full">بدر</string>
+    <string name="moon_waning_gibbous">أحدب متناقص</string>
+    <string name="moon_last_quarter">تربيع أخير</string>
+    <string name="moon_waning_crescent">هلال متناقص</string>
+
+    <!-- Mouse Statuses -->
+    <string name="mouse_storm">آه! الفأرة تختبئ تحت البطانية من البرق! ⚡🐭</string>
+    <string name="mouse_rain">نخرج مظلة الفأرة المصنوعة من ورقة شجر! حان وقت القفز في البرك. ☔🐭</string>
+    <string name="mouse_snow">الفأرة تبني كوخاً ثلجياً من الجبن! ارتدِ جوارب دافئة! ❄️🐭</string>
+    <string name="mouse_uv">الشمس حارقة! الفأرة ترتدي النظارات وتحمي فراءها 👒☀️</string>
+    <string name="mouse_pollen">أتشوو! الفأرة تعطس... شخص ما نسي المناديل! 🤧🐭</string>
+    <string name="mouse_pollen_2">Mouse sneezes so hard she almost flies backward! 🤧💨</string>
+    <string name="mouse_pollen_3">Pollen everywhere! Even cheese tastes like a flower... Achoo! 🤧🌻</string>
+    <string name="mouse_pm25">الهواء يلسع الشوارب! من الأفضل البقاء في الجحر وقراءة كتاب. 📖🐭</string>
+    <string name="mouse_wind">فأرة طائرة! الرياح تبعثر الفراء في كل اتجاه! 💨🐭</string>
+    <string name="mouse_hot">أوف، الفأرة تحلم بآيس كريم الجبن في الظل... 🍦🧀</string>
+    <string name="mouse_hot_2">Too hot for running, mouse cools her ears with a wet leaf. 🍃🥵</string>
+    <string name="mouse_cold">بررر، الأطراف تتجمد! حان وقت الكاكاو الساخن في الجحر. ☕🐭</string>
+    <string name="mouse_cold_2">Mouse is shaking like jelly! Needs more blankets in the burrow. 🥶🐭</string>
+    <string name="mouse_humid">رطوبة! الفراء هبط، الفأرة تبدو كدجاجة مبللة. 🌧️🐭</string>
+    <string name="mouse_ok">الطقس مناسب! وقت مثالي للبحث عن الجبن! 🧀🐭</string>
+    <string name="mouse_ok_2">Sun is shining, mouse is jumping! Perfect day for a picnic. 🐭🍃</string>
+    <string name="mouse_ok_3">Delicious weather! Mouse cleans her fur and gets ready for an adventure. ✨🐭</string>
+    <string name="mouse_morning">Good morning! Mouse is still rubbing her eyes, but coffee is waiting. ☕🐭</string>
+    <string name="mouse_evening">Evening is coming! Mouse is counting stars before sleep. 🌟🐭</string>
+
+    <!-- Help Dialog -->
+    <string name="help_title">ماذا تعني هذه الرموز؟ 🧀</string>
+    <string name="help_weights">🌡️ **الأوزان**: نسبة مساهمة البيانات من Open-Meteo و Yr.no و ICON.</string>
+    <string name="help_humidity">💧 **الرطوبة**: محتوى بخار الماء في الهواء.</string>
+    <string name="help_pressure">⏲️ **الضغط**: الضغط الجوي بوحدة هكتوباسكال.</string>
+    <string name="help_uv">☀️ **UV**: مؤشر الأشعة فوق البنفسجية (فوق 7 احمِ فراءك!).</string>
+    <string name="help_aqi">🇪🇺/🇺🇸 **AQI**: مؤشر جودة الهواء.</string>
+    <string name="help_pm25">🌫️ **PM2.5**: غبار عالق بقطر يصل إلى 2.5 ميكرومتر.</string>
+    <string name="help_pm10">☁️ **PM10**: غبار عالق بقطر يصل إلى 10 ميكرومتر.</string>
+    <string name="help_gases">🧪 **الغازات**: تركيز أول أكسيد الكربون، إلخ.</string>
+    <string name="help_wind">💨 **الرياح**: سرعة واتجاه الرياح.</string>
+    <string name="help_pollen">🤧 **اللقاح**: معلومات عن تركيز اللقاح.</string>
+    <string name="help_no_rain">🌲 **بدون مطر**: فترات زمنية بدون هطول أمطار.</string>
+    <string name="help_sun">☀️ **الشمس**: فترات زمنية مع غيوم قليلة.</string>
+    <string name="help_understand">فهمت!</string>
+
+    <!-- Language Dialog -->
+    <string name="language_title">اختر اللغة 🌍</string>
+    <string name="lang_pl">🇵🇱 البولندية</string>
+    <string name="lang_en">🇬🇧 الإنجليزية</string>
+    <string name="lang_es">🇪🇸 الإسبانية</string>
+    <string name="cancel">إلغاء</string>
+
+    <!-- Forecast Dialog -->
+    <string name="forecast_title">التوقعات: %1$s</string>
+    <string name="forecast_conditions">📝 الظروف: %1$s</string>
+    <string name="forecast_moon">🌙 القمر: %1$s %2$s</string>
+    <string name="forecast_mouse_suggestion">🐭 اقتراح الفأرة: %1$s</string>
+    <string name="close">إغلاق</string>
+    <string name="rate_title">قيّم MouseWeather! 🐭⭐</string>
+    <string name="rate_message">هل ساعدتك الفأرة؟ تقييمك في المتجر سيجعل شاربيها يرتجفان من الفرح!</string>
+    <string name="rate_btn">قيّم الآن</string>
+    <string name="rate_later">لاحقاً</string>
+    <string name="support_project">اشترِ لي قهوة، ادعم المشروع ☕</string>
+
+    <!-- Weather Conditions -->
+    <string name="cond_clear">سماء صافية</string>
+    <string name="cond_partly_cloudy">غائم جزئياً</string>
+    <string name="cond_foggy">ضبابي</string>
+    <string name="cond_rainy">أمطار</string>
+    <string name="cond_stormy">عواصف</string>
+
+    <!-- Pollen Names -->
+    <string name="pollen_alder">توسكا</string>
+    <string name="pollen_birch">تنبوب</string>
+    <string name="pollen_grass">أعشاب</string>
+    <string name="pollen_mugwort">شيح</string>
+    <string name="pollen_olive">زيتون</string>
+    <string name="pollen_ragweed">دبسية</string>
+    <string name="status_initial">أدخل المدينة واضغط على الزر</string>
+    <string name="status_error_city">المدينة غير موجودة. استخدام الإحداثيات اليدوية!</string>
+    <string name="status_error_network">خطأ في الشبكة.</string>
+    <string name="status_error_weather">خطأ في جلب بيانات الطقس.</string>
+    <string name="label_coordinates">إحداثيات</string>
+    <string name="pollen_prefix">اللقاحات الحالية: </string>
+
+    <!-- Notifications -->
+    <string name="notif_storm_title">تنبيه: عاصفة في %1$s! ⛈️</string>
+    <string name="notif_storm_desc">من المتوقع حدوث عواصف في %1$s.</string>
+    <string name="notif_uv_title">ستكون الشمس حارقة في %1$s! ☀️</string>
+    <string name="notif_uv_desc">سيرتفع مؤشر الأشعة فوق البنفسجية في %1$s إلى %2$s.</string>
+    <string name="notif_sun_title">ستشرق الشمس في %1$s! ☀️</string>
+    <string name="notif_sun_desc">من المتوقع سماء صافية في %1$s. مثالي للفأرة!</string>
+    <string name="notif_rain_title">سوف تمطر في %1$s! 🌧️</string>
+    <string name="notif_rain_desc">تنصح الفأرة بأخذ مظلة. المطر متوقع في %1$s.</string>
+    <string name="notif_moon_title">الليلة قمر مكتمل! 🌕</string>
+    <string name="notif_moon_desc">تقترح الفأرة نزهة ليلية تحت ضوء القمر.</string>
+</resources>

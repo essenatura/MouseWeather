@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">MouseWeather</string>
+    <string name="wagi_label">Wagi -> OM: %1$d%% | Yr: %2$d%% | ICON: %3$d%%</string>
+    <string name="feels_like">Odczuwalna: %1$s°C</string>
+    <string name="uv_label">☀️ UV: %1$s</string>
+    <string name="humidity_label">💧 %1$d%%</string>
+    <string name="pressure_label">⏲️ %1$dhPa</string>
+    <string name="aqi_eu">🇪🇺 AQI: %1$d</string>
+    <string name="aqi_us">🇺🇸 AQI: %1$d</string>
+    <string name="pm25_label">🌫️ PM2.5: %1$s</string>
+    <string name="pm10_label">☁️ PM10: %1$s</string>
+    <string name="wind_label">💨 %1$s km/h (%2$s)</string>
+    <string name="wind_n">Północ</string>
+    <string name="wind_ne">Pn-Wsch</string>
+    <string name="wind_e">Wschód</string>
+    <string name="wind_se">Pd-Wsch</string>
+    <string name="wind_s">Południe</string>
+    <string name="wind_sw">Pd-Zach</string>
+    <string name="wind_w">Zachód</string>
+    <string name="wind_nw">Pn-Zach</string>
+    <string name="wind_dir_none">Brak</string>
+    <string name="pollen_high">Wysokie pylenie!</string>
+    <string name="pollen_low">Pylenie niskie</string>
+    <string name="pollen_active">Pylą: %1$s</string>
+    <string name="no_rain">🌲 bez deszczu: %1$s</string>
+    <string name="sun_window">☀️ Słońce: %1$s</string>
+    <string name="sun_clouds_window">☀️ Słońce z chmurami: %1$s</string>
+    <string name="no_windows">Brak okienek</string>
+    <string name="check_weather_btn">SPRAWDŹ POGODĘ</string>
+    <string name="city_label">🏙️ Wpisz nazwę miasta</string>
+    <string name="default_city">Twoja okolica</string>
+    <string name="moon_phase">Faza księżyca: %1$s %2$s</string>
+    <string name="sunrise_icon">🌅 %1$s</string>
+    <string name="sunset_icon">🌇 %1$s</string>
+
+    <!-- Moon Phases -->
+    <string name="moon_new">Nów</string>
+    <string name="moon_waxing_crescent">Przybywający sierp</string>
+    <string name="moon_first_quarter">Pierwsza kwadra</string>
+    <string name="moon_waxing_gibbous">Przybywający garb</string>
+    <string name="moon_full">Pełnia</string>
+    <string name="moon_waning_gibbous">Ubywający garb</string>
+    <string name="moon_last_quarter">Ostatnia kwadra</string>
+    <string name="moon_waning_crescent">Ubywający sierp</string>
+
+    <!-- Mouse Statuses -->
+    <string name="mouse_storm">AUU! Myszka chowa się pod kołdrę przed piorunami! ⚡🐭</string>
+    <string name="mouse_rain">Wyciągamy mysią parasolkę z liścia! Pora na skoki przez kałuże. ☔🐭</string>
+    <string name="mouse_snow">Myszka buduje igloo z sera! Załóż ciepłe skarpetki na łapki! ❄️🐭</string>
+    <string name="mouse_uv">Słońce parzy! Myszka zakłada okulary i chroni futerko 👒☀️</string>
+    <string name="mouse_pollen">Apsik! Myszka kicha... ktoś tu zapomniał o chusteczkach! 🤧🐭</string>
+    <string name="mouse_pollen_2">Myszka kicha tak mocno, że aż ją odrzuca do tyłu! 🤧💨</string>
+    <string name="mouse_pollen_3">Pyłki wszędzie! Nawet ser smakuje jak kwiatek... Apsik! 🤧🌻</string>
+    <string name="mouse_pm25">Powietrze gryzie w wąsy! Dziś lepiej zostać w norce i czytać książkę. 📖🐭</string>
+    <string name="mouse_wind">Latająca mysz! Wichura mierzwi futerko we wszystkie strony! 💨🐭</string>
+    <string name="mouse_hot">Ufff, myszka marzy o lodach serowych w cieniu... 🍦🧀</string>
+    <string name="mouse_hot_2">Za gorąco na bieganie, myszka chłodzi uszka mokrym listkiem. 🍃🥵</string>
+    <string name="mouse_cold">Brrr, łapki marzną! Czas na gorące kakao w norku. ☕🐭</string>
+    <string name="mouse_cold_2">Myszka trzęsie się jak galaretka! Potrzeba więcej koców w norce. 🥶🐭</string>
+    <string name="mouse_humid">Wilgotno! Futerko klapło, myszka wygląda jak mokra kura. 🌧️🐭</string>
+    <string name="mouse_ok">Biomet korzystny! Idealny czas na wielkie szukanie sera! 🧀🐭</string>
+    <string name="mouse_ok_2">Słońce świeci, myszka skacze! Idealny dzień na piknik w trawie. 🐭🍃</string>
+    <string name="mouse_ok_3">Pyszna pogoda! Myszka czyści futerko i szykuje się na przygodę. ✨🐭</string>
+    <string name="mouse_morning">Dzień dobry! Myszka jeszcze przeciera oczka, ale kawa już czeka. ☕🐭</string>
+    <string name="mouse_evening">Wieczór idzie! Myszka liczy gwiazdy przed snem. 🌟🐭</string>
+
+    <!-- Help Dialog -->
+    <string name="help_title">Co oznaczają te symbole? 🧀</string>
+    <string name="help_weights">🌡️ **Wagi**: Procentowy udział danych z portali Open-Meteo (OM), Yr.no (Yr) i modelu ICON w obliczonym konsensusie temperatury.</string>
+    <string name="help_humidity">💧 **Wilgotność**: Zawartość pary wodnej w powietrzu.</string>
+    <string name="help_pressure">⏲️ **Ciśnienie**: Ciśnienie atmosferyczne w hPa.</string>
+    <string name="help_uv">☀️ **UV**: Indeks promieniowania ultrafioletowego (powyżej 7 chroń futerko!).</string>
+    <string name="help_aqi">🇪🇺/🇺🇸 **AQI**: Indeks jakości powietrza. Aplikacja automatycznie wybiera standard europejski lub amerykański zależnie od kraju.</string>
+    <string name="help_pm25">🌫️ **PM2.5**: Pyły zawieszone o średnicy do 2.5 μm. Bardzo drobne, mogą docierać do krwiobiegu myszki.</string>
+    <string name="help_pm10">☁️ **PM10**: Pyły zawieszone o średnicy do 10 μm. Mogą powodować kaszel i katar u myszki.</string>
+    <string name="help_gases">🧪 **Gazy (CO, NO2, SO2, O3)**: Stężenie tlenku węgla, dwutlenku azotu, dwutlenku siarki i ozonu.</string>
+    <string name="help_wind">💨 **Wiatr**: Prędkość i kierunek wiatru.</string>
+    <string name="help_pollen">🤧 **Pylenie**: Informacja o stężeniu pyłków (Olcha, Brzoza, Trawy, Bylica, Oliwka, Ambrozja).</string>
+    <string name="help_no_rain">🌲 **bez deszczu**: Okienka czasowe bez opadów deszczu.</string>
+    <string name="help_sun">☀️ **Słońce**: Okienka z małym zachmurzeniem (idealne na opalanie).</string>
+    <string name="help_understand">Rozumiem!</string>
+
+    <!-- Language Dialog -->
+    <string name="language_title">Wybierz język / Select language 🌍</string>
+    <string name="lang_pl">🇵🇱 Polski</string>
+    <string name="lang_en">🇬🇧 English</string>
+    <string name="lang_es">🇪🇸 Español</string>
+    <string name="cancel">Anuluj / Cancel</string>
+
+    <!-- Pollen -->
+    <string name="pollen_alder">Olcha</string>
+    <string name="pollen_birch">Brzoza</string>
+    <string name="pollen_grass">Trawy</string>
+    <string name="pollen_mugwort">Bylica</string>
+    <string name="pollen_olive">Oliwka</string>
+    <string name="pollen_ragweed">Ambrozja</string>
+    <string name="status_initial">Wpisz miasto i kliknij przycisk</string>
+    <string name="status_error_city">Brak miasta. Używam pól ręcznych!</string>
+    <string name="status_error_network">Błąd sieci.</string>
+    <string name="status_error_weather">Błąd pobierania danych pogodowych.</string>
+    <string name="label_coordinates">Współrzędne</string>
+    <string name="pollen_prefix">Pylą: </string>
+
+    <!-- Notifications -->
+    <string name="notif_storm_title">Uwaga: Burza o %1$s! ⛈️</string>
+    <string name="notif_storm_desc">W miejscowości %1$s spodziewane są wyładowania.</string>
+    <string name="notif_uv_title">Słońce przypiecze o %1$s! ☀️</string>
+    <string name="notif_uv_desc">W %1$s UV wzrośnie do %2$s.</string>
+    <string name="notif_sun_title">Słońce wyjdzie o %1$s! ☀️</string>
+    <string name="notif_sun_desc">W %1$s szykuje się bezchmurne niebo. Idealnie dla myszki!</string>
+    <string name="notif_rain_title">Będzie padać o %1$s! 🌧️</string>
+    <string name="notif_rain_desc">Myszka radzi zabrać parasolkę. W %1$s spodziewany deszcz.</string>
+    <string name="notif_moon_title">Dzisiaj jest pełnia! 🌕</string>
+    <string name="notif_moon_desc">Myszka sugeruje nocny spacer przy świetle księżyca.</string>
+
+    <!-- Forecast Dialog -->
+    <string name="forecast_title">Prognoza: %1$s</string>
+    <string name="forecast_conditions">📝 Warunki: %1$s</string>
+    <string name="forecast_moon">🌙 Księżyc: %1$s %2$s</string>
+    <string name="forecast_mouse_suggestion">🐭 Sugestia: %1$s</string>
+    <string name="close">Zamknij</string>
+    <string name="rate_title">Oceń MouseWeather! 🐭⭐</string>
+    <string name="rate_message">Czy myszka Ci pomogła? Twoja opinia w sklepie sprawi, że jej wąsy będą trząść się z radości!</string>
+    <string name="rate_btn">Oceń teraz</string>
+    <string name="rate_later">Później</string>
+    <string name="support_project">Wesprzyj projekt 🧀</string>
+
+    <!-- Weather Conditions -->
+    <string name="cond_clear">Czyste niebo</string>
+    <string name="cond_partly_cloudy">Częściowe zachmurzenie</string>
+    <string name="cond_foggy">Mglisto</string>
+    <string name="cond_rainy">Opady deszczu</string>
+    <string name="cond_stormy">Burzowo</string>
+</resources>

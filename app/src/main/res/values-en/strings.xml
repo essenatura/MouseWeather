@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">MouseWeather</string>
+    <string name="wagi_label">Weights -> OM: %1$d%% | Yr: %2$d%% | ICON: %3$d%%</string>
+    <string name="feels_like">Feels like: %1$s°C</string>
+    <string name="uv_label">☀️ UV: %1$s</string>
+    <string name="humidity_label">💧 %1$d%%</string>
+    <string name="pressure_label">⏲️ %1$dhPa</string>
+    <string name="aqi_eu">🇪🇺 AQI: %1$d</string>
+    <string name="aqi_us">🇺🇸 AQI: %1$d</string>
+    <string name="pm25_label">🌫️ PM2.5: %1$s</string>
+    <string name="pm10_label">☁️ PM10: %1$s</string>
+    <string name="wind_label">💨 %1$s km/h (%2$s)</string>
+    <string name="wind_n">North</string>
+    <string name="wind_ne">NE</string>
+    <string name="wind_e">East</string>
+    <string name="wind_se">SE</string>
+    <string name="wind_s">South</string>
+    <string name="wind_sw">SW</string>
+    <string name="wind_w">West</string>
+    <string name="wind_nw">NW</string>
+    <string name="wind_dir_none">None</string>
+    <string name="pollen_high">High Pollen!</string>
+    <string name="pollen_low">Pollen Low</string>
+    <string name="pollen_active">Pollen: %1$s</string>
+    <string name="no_rain">🌲 no rain: %1$s</string>
+    <string name="sun_window">☀️ Sun: %1$s</string>
+    <string name="sun_clouds_window">☀️ Sun with clouds: %1$s</string>
+    <string name="no_windows">No windows</string>
+    <string name="check_weather_btn">CHECK WEATHER</string>
+    <string name="city_label">🏙️ Enter city name</string>
+    <string name="default_city">Your area</string>
+    <string name="moon_phase">Moon Phase: %1$s %2$s</string>
+    <string name="sunrise_icon">🌅 %1$s</string>
+    <string name="sunset_icon">🌇 %1$s</string>
+
+    <!-- Moon Phases -->
+    <string name="moon_new">New Moon</string>
+    <string name="moon_waxing_crescent">Waxing Crescent</string>
+    <string name="moon_first_quarter">First Quarter</string>
+    <string name="moon_waxing_gibbous">Waxing Gibbous</string>
+    <string name="moon_full">Full Moon</string>
+    <string name="moon_waning_gibbous">Waning Gibbous</string>
+    <string name="moon_last_quarter">Last Quarter</string>
+    <string name="moon_waning_crescent">Waning Crescent</string>
+
+    <!-- Mouse Statuses -->
+    <string name="mouse_storm">EEK! Mouse is hiding under the blanket from lightning! ⚡🐭</string>
+    <string name="mouse_rain">Getting the mouse leaf-umbrella! Time for puddle jumping. ☔🐭</string>
+    <string name="mouse_snow">Mouse is building a cheese igloo! Put on warm socks! ❄️🐭</string>
+    <string name="mouse_uv">Sun is burning! Mouse puts on glasses and protects fur 👒☀️</string>
+    <string name="mouse_pollen">Achoo! Mouse is sneezing... someone forgot the tissues! 🤧🐭</string>
+    <string name="mouse_pollen_2">Mouse sneezes so hard she almost flies backward! 🤧💨</string>
+    <string name="mouse_pollen_3">Pollen everywhere! Even cheese tastes like a flower... Achoo! 🤧🌻</string>
+    <string name="mouse_pm25">Air bites the whiskers! Better stay in the burrow and read a book. 📖🐭</string>
+    <string name="mouse_wind">Flying mouse! Gale is messing up the fur everywhere! 💨🐭</string>
+    <string name="mouse_hot">Phew, mouse is dreaming of cheese ice cream in the shade... 🍦🧀</string>
+    <string name="mouse_hot_2">Too hot for running, mouse cools her ears with a wet leaf. 🍃🥵</string>
+    <string name="mouse_cold">Brrr, paws are freezing! Time for hot cocoa in the burrow. ☕🐭</string>
+    <string name="mouse_cold_2">Mouse is shaking like jelly! Needs more blankets in the burrow. 🥶🐭</string>
+    <string name="mouse_humid">Humid! Fur is flat, mouse looks like a wet chicken. 🌧️🐭</string>
+    <string name="mouse_ok">Biomet is good! Perfect time for a big cheese hunt! 🧀🐭</string>
+    <string name="mouse_ok_2">Sun is shining, mouse is jumping! Perfect day for a picnic. 🐭🍃</string>
+    <string name="mouse_ok_3">Delicious weather! Mouse cleans her fur and gets ready for an adventure. ✨🐭</string>
+    <string name="mouse_morning">Good morning! Mouse is still rubbing her eyes, but coffee is waiting. ☕🐭</string>
+    <string name="mouse_evening">Evening is coming! Mouse is counting stars before sleep. 🌟🐭</string>
+
+    <!-- Help Dialog -->
+    <string name="help_title">What do these symbols mean? 🧀</string>
+    <string name="help_weights">🌡️ **Weights**: Percentage of data from Open-Meteo (OM), Yr.no (Yr), and ICON model in the consensus.</string>
+    <string name="help_humidity">💧 **Humidity**: Water vapor content in the air.</string>
+    <string name="help_pressure">⏲️ **Pressure**: Atmospheric pressure in hPa.</string>
+    <string name="help_uv">☀️ **UV**: Ultraviolet index (over 7 protect the fur!).</string>
+    <string name="help_aqi">🇪🇺/🇺🇸 **AQI**: Air Quality Index. App automatically chooses EU or US standard based on country.</string>
+    <string name="help_pm25">🌫️ **PM2.5**: Particulate matter up to 2.5 μm. Tiny particles that can enter the bloodstream.</string>
+    <string name="help_pm10">☁️ **PM10**: Particulate matter up to 10 μm. Can cause coughing and sneezing.</string>
+    <string name="help_gases">🧪 **Gases (CO, NO2, SO2, O3)**: Concentrations of carbon monoxide, nitrogen dioxide, etc.</string>
+    <string name="help_wind">💨 **Wind**: Wind speed and direction.</string>
+    <string name="help_pollen">🤧 **Pollen**: Information about pollen concentrations.</string>
+    <string name="help_no_rain">🌲 **no rain**: Time windows without rain.</string>
+    <string name="help_sun">☀️ **Sun**: Windows with low cloud cover (perfect for tanning).</string>
+    <string name="help_understand">I understand!</string>
+
+    <!-- Language Dialog -->
+    <string name="language_title">Select language 🌍</string>
+    <string name="lang_pl">🇵🇱 Polish</string>
+    <string name="lang_en">🇬🇧 English</string>
+    <string name="lang_es">🇪🇸 Spanish</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Pollen -->
+    <string name="pollen_alder">Alder</string>
+    <string name="pollen_birch">Birch</string>
+    <string name="pollen_grass">Grasses</string>
+    <string name="pollen_mugwort">Mugwort</string>
+    <string name="pollen_olive">Olive</string>
+    <string name="pollen_ragweed">Ragweed</string>
+    <string name="status_initial">Enter city and click the button</string>
+    <string name="status_error_city">City not found. Using manual coordinates!</string>
+    <string name="status_error_network">Network error.</string>
+    <string name="status_error_weather">Error fetching weather data.</string>
+    <string name="label_coordinates">Coordinates</string>
+    <string name="pollen_prefix">Pollen: </string>
+
+    <!-- Notifications -->
+    <string name="notif_storm_title">Attention: Storm at %1$s! ⛈️</string>
+    <string name="notif_storm_desc">Thunderstorms expected in %1$s.</string>
+    <string name="notif_uv_title">Sun will burn at %1$s! ☀️</string>
+    <string name="notif_uv_desc">UV in %1$s will rise to %2$s.</string>
+    <string name="notif_sun_title">Sun will come out at %1$s! ☀️</string>
+    <string name="notif_sun_desc">Clear skies expected in %1$s. Perfect for a mouse!</string>
+    <string name="notif_rain_title">It will rain at %1$s! 🌧️</string>
+    <string name="notif_rain_desc">Mouse suggests taking an umbrella. Rain expected in %1$s.</string>
+    <string name="notif_moon_title">Tonight is a full moon! 🌕</string>
+    <string name="notif_moon_desc">Mouse suggests a night walk in the moonlight.</string>
+
+    <!-- Forecast Dialog -->
+    <string name="forecast_title">Forecast: %1$s</string>
+    <string name="forecast_conditions">📝 Conditions: %1$s</string>
+    <string name="forecast_moon">🌙 Moon: %1$s %2$s</string>
+    <string name="forecast_mouse_suggestion">🐭 Suggestion: %1$s</string>
+    <string name="close">Close</string>
+    <string name="rate_title">Rate MouseWeather! 🐭⭐</string>
+    <string name="rate_message">Has the mouse helped you? Your review in the store will make its whiskers twitch with joy!</string>
+    <string name="rate_btn">Rate now</string>
+    <string name="rate_later">Later</string>
+    <string name="support_project">Buy me a coffee, support the project ☕</string>
+
+    <!-- Weather Conditions -->
+    <string name="cond_clear">Clear sky</string>
+    <string name="cond_partly_cloudy">Partly cloudy</string>
+    <string name="cond_foggy">Foggy</string>
+    <string name="cond_rainy">Rain</string>
+    <string name="cond_stormy">Stormy</string>
+</resources>

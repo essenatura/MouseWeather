@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">MouseWeather</string>
+    <string name="wagi_label">Bobot -> OM: %1$d%% | Yr: %2$d%% | ICON: %3$d%%</string>
+    <string name="feels_like">Terasa seperti: %1$s°C</string>
+    <string name="uv_label">☀️ UV: %1$s</string>
+    <string name="humidity_label">💧 %1$d%%</string>
+    <string name="pressure_label">⏲️ %1$dhPa</string>
+    <string name="aqi_eu">🇪🇺 AQI: %1$d</string>
+    <string name="aqi_us">🇺🇸 AQI: %1$d</string>
+    <string name="pm25_label">🌫️ PM2.5: %1$s</string>
+    <string name="pm10_label">☁️ PM10: %1$s</string>
+    <string name="wind_label">💨 %1$s km/j (%2$s)</string>
+    <string name="wind_n">Utara</string>
+    <string name="wind_ne">Timur Laut</string>
+    <string name="wind_e">Timur</string>
+    <string name="wind_se">Tenggara</string>
+    <string name="wind_s">Selatan</string>
+    <string name="wind_sw">Barat Daya</string>
+    <string name="wind_w">Barat</string>
+    <string name="wind_nw">Barat Laut</string>
+    <string name="wind_dir_none">Tidak ada</string>
+    <string name="pollen_high">Serbuk sari tinggi!</string>
+    <string name="pollen_low">Serbuk sari rendah</string>
+    <string name="pollen_active">Serbuk sari: %1$s</string>
+    <string name="no_rain">🌲 tanpa hujan: %1$s</string>
+    <string name="sun_window">☀️ Jendela matahari: %1$s</string>
+    <string name="sun_clouds_window">☀️ Matahari berawan: %1$s</string>
+    <string name="no_windows">Tidak ada jendela</string>
+    <string name="check_weather_btn">CEK CUACA</string>
+    <string name="city_label">🏙️ Masukkan nama kota</string>
+    <string name="default_city">Wilayah Anda</string>
+    <string name="moon_phase">Fase bulan: %1$s %2$s</string>
+    <string name="sunrise_icon">🌅 %1$s</string>
+    <string name="sunset_icon">🌇 %1$s</string>
+
+    <!-- Moon Phases -->
+    <string name="moon_new">Bulan Baru</string>
+    <string name="moon_waxing_crescent">Sabit Awal</string>
+    <string name="moon_first_quarter">Kuartal Pertama</string>
+    <string name="moon_waxing_gibbous">Cembung Awal</string>
+    <string name="moon_full">Bulan Purnama</string>
+    <string name="moon_waning_gibbous">Cembung Akhir</string>
+    <string name="moon_last_quarter">Kuartal Terakhir</string>
+    <string name="moon_waning_crescent">Sabit Akhir</string>
+
+    <!-- Mouse Statuses -->
+    <string name="mouse_storm">ADUH! Tikus bersembunyi di bawah selimut karena petir! ⚡🐭</string>
+    <string name="mouse_rain">Mengambil payung daun tikus! Waktunya melompat di genangan air. ☔🐭</string>
+    <string name="mouse_snow">Tikus sedang membangun igloo keju! Pakai kaus kaki hangat! ❄️🐭</string>
+    <string name="mouse_uv">Matahari sangat terik! Tikus memakai kacamata hitam untuk melindungi bulunya 👒☀️</string>
+    <string name="mouse_pollen">Hasyim! Tikus bersin-bersin... seseorang lupa membawa tisu! 🤧🐭</string>
+    <string name="mouse_pollen_2">Tikus bersin sangat keras sampai hampir terbang ke belakang! 🤧💨</string>
+    <string name="mouse_pollen_3">Serbuk sari di mana-mana! Bahkan keju terasa seperti bunga... Hasyim! 🤧🌻</string>
+    <string name="mouse_pm25">Udaranya menggigit kumis! Lebih baik tinggal di sarang dan membaca buku. 📖🐭</string>
+    <string name="mouse_wind">Tikus terbang! Angin kencang membuat bulu berantakan ke segala arah! 💨🐭</string>
+    <string name="mouse_hot">Uf, tikus bermimpi makan es krim keju di tempat teduh... 🍦🧀</string>
+    <string name="mouse_hot_2">Terlalu panas untuk berlari, tikus mendinginkan telinga dengan daun basah. 🍃🥵</string>
+    <string name="mouse_cold">Brrr, kaki tikus membeku! Waktunya minum cokelat panas di sarang. ☕🐭</string>
+    <string name="mouse_cold_2">Tikus gemetar seperti jeli! Butuh lebih banyak selimut di sarang. 🥶🐭</string>
+    <string name="mouse_humid">Lembap! Bulunya lepek, tikus terlihat seperti ayam basah. 🌧️🐭</string>
+    <string name="mouse_ok">Biomet bagus! Waktu yang sempurna untuk mencari keju! 🧀🐭</string>
+    <string name="mouse_ok_2">Matahari bersinar, tikus melompat! Hari yang sempurna untuk piknik. 🐭🍃</string>
+    <string name="mouse_ok_3">Cuaca enak! Tikus membersihkan bulu dan bersiap untuk petualangan. ✨🐭</string>
+    <string name="mouse_morning">Selamat pagi! Tikus masih mengucek mata, tapi kopi sudah menunggu. ☕🐭</string>
+    <string name="mouse_evening">Malam tiba! Tikus menghitung bintang sebelum tidur. 🌟🐭</string>
+
+    <!-- Help Dialog -->
+    <string name="help_title">Apa arti simbol-simbol ini? 🧀</string>
+    <string name="help_weights">🌡️ **Bobot**: Persentase data dari Open-Meteo, Yr.no, dan ICON.</string>
+    <string name="help_humidity">💧 **Kelembapan**: Kandungan uap air di udara.</string>
+    <string name="help_pressure">⏲️ **Tekanan**: Tekanan atmosfer dalam hPa.</string>
+    <string name="help_uv">☀️ **UV**: Indeks ultraviolet (di atas 7 lindungi bulu!).</string>
+    <string name="help_aqi">🇪🇺/🇺🇸 **AQI**: Indeks Kualitas Udara.</string>
+    <string name="help_pm25">🌫️ **PM2.5**: Partikel halus hingga 2.5 μm.</string>
+    <string name="help_pm10">☁️ **PM10**: Partikel debu yang lebih besar.</string>
+    <string name="help_gases">🧪 **Gas**: Konsentrasi karbon monoksida, dll.</string>
+    <string name="help_wind">💨 **Angin**: Kecepatan dan arah angin.</string>
+    <string name="help_pollen">🤧 **Serbuk Sari**: Informasi tentang konsentrasi serbuk sari.</string>
+    <string name="help_no_rain">🌲 **tanpa hujan**: Jendela waktu tanpa hujan.</string>
+    <string name="help_sun">☀️ **Matahari**: Jendela waktu dengan sedikit awan.</string>
+    <string name="help_understand">Saya mengerti!</string>
+
+    <!-- Language Dialog -->
+    <string name="language_title">Pilih Bahasa 🌍</string>
+    <string name="lang_pl">🇵🇱 Polandia</string>
+    <string name="lang_en">🇬🇧 Inggris</string>
+    <string name="lang_es">🇪🇸 Spanyol</string>
+    <string name="cancel">Batal</string>
+
+    <!-- Forecast Dialog -->
+    <string name="forecast_title">Ramalan: %1$s</string>
+    <string name="forecast_conditions">📝 Kondisi: %1$s</string>
+    <string name="forecast_moon">🌙 Bulan: %1$s %2$s</string>
+    <string name="forecast_mouse_suggestion">🐭 Saran Tikus: %1$s</string>
+    <string name="close">Tutup</string>
+    <string name="rate_title">Nilai MouseWeather! 🐭⭐</string>
+    <string name="rate_message">Apakah tikus telah membantu Anda? Ulasan Anda di toko akan membuat kumisnya bergetar karena gembira!</string>
+    <string name="rate_btn">Nilai sekarang</string>
+    <string name="rate_later">Nanti</string>
+    <string name="support_project">Traktir saya kopi, dukung proyek ini ☕</string>
+
+    <!-- Weather Conditions -->
+    <string name="cond_clear">Langit cerah</string>
+    <string name="cond_partly_cloudy">Berawan sebagian</string>
+    <string name="cond_foggy">Berkabut</string>
+    <string name="cond_rainy">Hujan</string>
+    <string name="cond_stormy">Badai</string>
+
+    <!-- Pollen Names -->
+    <string name="pollen_alder">Alder</string>
+    <string name="pollen_birch">Birch</string>
+    <string name="pollen_grass">Rumput</string>
+    <string name="pollen_mugwort">Mugwort</string>
+    <string name="pollen_olive">Zaitun</string>
+    <string name="pollen_ragweed">Ragweed</string>
+    <string name="status_initial">Masukkan kota dan klik tombol</string>
+    <string name="status_error_city">Kota tidak ditemukan. Menggunakan koordinat manual!</string>
+    <string name="status_error_network">Kesalahan jaringan.</string>
+    <string name="status_error_weather">Kesalahan mengambil data cuaca.</string>
+    <string name="label_coordinates">Koordinat</string>
+    <string name="pollen_prefix">Serbuk sari aktif: </string>
+
+    <!-- Notifications -->
+    <string name="notif_storm_title">Peringatan: Badai pada %1$s! ⛈️</string>
+    <string name="notif_storm_desc">Badai petir diperkirakan di %1$s.</string>
+    <string name="notif_uv_title">Matahari akan menyengat pada %1$s! ☀️</string>
+    <string name="notif_uv_desc">UV di %1$s akan naik ke %2$s.</string>
+    <string name="notif_sun_title">Matahari akan muncul pada %1$s! ☀️</string>
+    <string name="notif_sun_desc">Langit cerah diperkirakan di %1$s. Sempurna untuk tikus!</string>
+    <string name="notif_rain_title">Akan hujan pada %1$s! 🌧️</string>
+    <string name="notif_rain_desc">Tikus menyarankan membawa payung. Hujan diperkirakan pada %1$s.</string>
+    <string name="notif_moon_title">Malam ini bulan purnama! 🌕</string>
+    <string name="notif_moon_desc">Tikus menyarankan jalan-jalan malam di bawah sinar bulan.</string>
+</resources>
