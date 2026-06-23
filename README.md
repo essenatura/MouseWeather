@@ -15,6 +15,7 @@ Privacy First: No trackers, no ads, no non-free services.
 
 🧀 PL (Polski)
 MouseWeather to aplikacja pogodowa dbająca o prywatność, która zapewnia konsensus temperatury z wielu źródeł, prezentując dane w interfejsie z motywem myszy.
+
 🛠 Built with
 •
 Kotlin & Jetpack Compose
